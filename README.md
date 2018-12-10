@@ -1,6 +1,6 @@
 # Requerimientos solicitados para la Validación de SAP
 
-## A continuación se detallan los requerimientos indicados por la consultora de validación ITQA en el documento de Análisis de Riesgo enviado oportunamente y por los Asesores Externos** de INVIMA.
+## A continuación se detallan los requerimientos indicados por la consultora de validación ITQA en el documento de Análisis de Riesgo enviado oportunamente y por los Asesores Externos de INVIMA.
 
 > ITQA es una consultora especializada en Validación de Sistemas Computarizados, de Control y Sistemas de Calidad para la industria Farmacéutica.
 
@@ -21,7 +21,7 @@
 
 
 - **Ambientes de Operación**
-	- El sistema debe poseer un ambiente de Producción (ambiente real de trabajo) y un ambiente de Testing, que permita realizar las pruebas de aceptación de los cambios a solicitados y entrenamientos. Cada ambiente debe tener sets de datos independientes.
+	- [x] El sistema debe poseer un ambiente de Producción (ambiente real de trabajo) y un ambiente de Testing, que permita realizar las pruebas de aceptación de los cambios a solicitados y entrenamientos. Cada ambiente debe tener sets de datos independientes.
 		> Falta la verificación documental
 
 - **Servicio**
@@ -31,11 +31,11 @@
 
 - **Performance**
 	- El sistema debe ser capaz de almacenar la información que genera, por lo que debe verificarse el espacio disponible en disco.
-	- El sistema debe ser multiusuario con conexión simultánea, permitiendo sólo una sesión por usuario a la vez. Debe verificarse que no se produzcan cierres inesperados debido a que el sistema no soporte numerosos usuarios conectados simultáneamente.
+	- [x] El sistema debe ser multiusuario con conexión simultánea, permitiendo sólo una sesión por usuario a la vez. Debe verificarse que no se produzcan cierres inesperados debido a que el sistema no soporte numerosos usuarios conectados simultáneamente.
 
 - **Interfase con software de Central de Pesadas**
-	- La información transferida al software de central de pesadas debe ser consistente para evitar pérdida o corrupción de datos GMP relaventes.
-	- La información suministrada por el software de central de pesadas debe ser procesada consistentemente y sin errores para evitar pérdida, corrupción, omisión y/o reprocesamiento de datos GMP relevantes.
+	- [x] La información transferida al software de central de pesadas debe ser consistente para evitar pérdida o corrupción de datos GMP relaventes.
+	- [x] La información suministrada por el software de central de pesadas debe ser procesada consistentemente y sin errores para evitar pérdida, corrupción, omisión y/o reprocesamiento de datos GMP relevantes.
 
 - **Generación de lotes**
     - Validar el módulo de SAP que asigna número de lote logístico
@@ -43,12 +43,12 @@
 - **Seguridad lógica**
 	- Todos los servidores del sistema deben estar cubiertos por antivirus y la gestión realizada por el proveedor de servicios SAP. Debe verificarse la existencia y que se encuentren actualizados.
 	- El sistema debe soportar Firma Electrónica o cualquier otro método alterno que permita certificar que las personas que acceden a él son las mismas que ejecutan las acciones sobre los datos.
-	- El sistema debe permitir que la complejidad, caducidad y repetición de la contraseña sea parametrizable.
-	- El sistema debe deshabilitar los usuarios que hayan estado inactivos por mas de 30 días.
-	- El sistema debe bloquear la cuenta de los usuarios que intentan infructuosamente loguearse a él.
-	- El sistema debe permitir que la duración de la sesión sea parametrizable.
+	- [x] El sistema debe permitir que la complejidad, caducidad y repetición de la contraseña sea parametrizable.
+	- [x] El sistema debe deshabilitar los usuarios que hayan estado inactivos por mas de 30 días.
+	- [x] El sistema debe bloquear la cuenta de los usuarios que intentan infructuosamente loguearse a él.
+	- [x] El sistema debe permitir que la duración de la sesión sea parametrizable.
 	- El sistema debe permitir la visualización del historial del perfil de un usuario.
-	- La gestión de usuarios (altas, bajas y modificaciones), debe ser realizada por el proveedor de servicios SAP.
+	- [x] La gestión de usuarios (altas, bajas y modificaciones), debe ser realizada por el proveedor de servicios SAP.
 
 - **Audit Trail**
 	- El sistema debe almacenar el historial de modificaciones de:
